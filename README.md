@@ -1,6 +1,18 @@
 # jane_hex
 A hash maker/breaker via wordlists
 
+SHA256 Sum's:
+f01d13136de85ab00303be27c861c84974973168eb7ff115b0d50e719f0ccc86  jane_hex.py
+127b8eb46024af4f9a1ce593a4e8928947647bef45ea5a12c197fabb6b1460e4  jane_hex
+
+MD5 Sum's:
+24c1a9d5275af9d3053b000ad650c365  jane_hex.py
+e0a77a9ab3e530d3068ff7b0a224677d  jane_hex
+
+Dev Note: 
+The base64 decoding option does not work with standard base64 decryption, instead it attempts to library attack it. This was an error on our part, one that seems to be a bit tenacious. If you want base64 encoding and decoding, please use our "Janes_blue_bomber" app in the repository of the same name. Thanks!!! Everything else works fine...unles it doesn't 0_o
+
+Oh yeah, this software is use at your own risk. We are not responsible for anything that develope, breakes, crashes, sends you to another multi-verse, etc. Please use with caution and common sense (verify the sha's abouve for starters...)
 
 🧙‍♀️ Jane Hex — Hash Maker & Breaker
 Make them • Break them • Know them
